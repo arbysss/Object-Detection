@@ -104,7 +104,7 @@ if __name__ == "__main__":
     count = 0
     
     # Start stream
-    cap = cv2.VideoCapture("rtsp://admin:Yummyfood21@172.17.1.80:554/Streaming/channels/502")
+    cap = cv2.VideoCapture("rtsp://username:pass@192.1.1.254:554/Streaming/channels/502")
     
     # Get size frame
     CAMERA_WIDTH = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
